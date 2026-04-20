@@ -1,0 +1,13 @@
+{
+  "name": "google-ads",
+  "description": "Google Ads agency management — 38+ tools for campaign management, performance analysis, SEM reporting, Excel workbook generation, scheduling, and optimization across client accounts via natural language",
+  "version": "3.0.0-beta.1",
+  "author": {
+    "name": "Xtropy"
+  },
+  "repository": "https://github.com/Alitaliani/ta-google-ads",
+  "license": "MIT",
+  "python": ">=3.11",
+  "keywords": ["google-ads", "ppc", "sem", "agency", "mcp", "advertising", "reporting", "excel", "scheduling", "sem-audit"],
+  "postInstall": "Run /google-ads:setup to configure credentials and connect your Google Ads accounts."
+}

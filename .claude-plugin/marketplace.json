@@ -1,0 +1,13 @@
+{
+  "$schema": "https://claude.ai/schemas/claude-plugin-marketplace.json",
+  "name": "xtropy",
+  "displayName": "Xtropy",
+  "description": "Xtropy's private plugin collection for Claude Code / Cowork.",
+  "plugins": [
+    {
+      "name": "google-ads",
+      "source": ".",
+      "description": "Google Ads agency management — 54 MCP tools, 7 methodology skills, 19 slash commands. Manage client accounts via natural language: performance pulls, audits, SEM reports, scheduled recurring reports downloaded locally."
+    }
+  ]
+}
