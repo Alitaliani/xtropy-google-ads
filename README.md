@@ -10,7 +10,7 @@ Private plugin for Xtropy campaign managers. Adds 19 slash commands, 8 methodolo
 
 You need two things: the MCP connection (with your personal bearer token) and the plugin files (commands + skills + nav guide). Either path below works.
 
-### Option A — Plugin install (newer Claude Code / Cowork)
+### Plugin install (newer Claude Code / Cowork)
 
 ```
 /plugin marketplace add Alitaliani/xtropy-google-ads
@@ -18,15 +18,6 @@ You need two things: the MCP connection (with your personal bearer token) and th
 ```
 
 Then add the hosted MCP connection with your key:
-
-```
-claude mcp add --transport http google-ads https://mcp.trafficarchitect.com/mcp \
-  --header "Authorization: Bearer YOUR_KEY"
-```
-
-### Option B — Setup wizard (works everywhere, including older Claude Code)
-
-First, add the MCP connection:
 
 ```
 claude mcp add --transport http google-ads https://mcp.trafficarchitect.com/mcp \
@@ -63,22 +54,12 @@ The MCP's `setup_xtropy_mcp` tool returns a file manifest; Claude curls this rep
 
 ---
 
-## Scheduling model (end users)
+## Scheduling Reports
 
 When you schedule a recurring report via `/google-ads:schedule-weekly-reports`, the `.xlsx` files download straight to a folder on your computer. No Google Drive. No email. The schedule runs client-side in your own Claude Code / Cowork — if your laptop is off at the scheduled time, the run skips that cycle.
 
 Operator (Xtropy) runs its own weekly batch via a separate local-stdio path that does upload to Drive and email the team. End-user schedules never touch that path.
 
----
-
-## Reporting issues
-
-Message Hamid (hamid@trafficarchitect.com) or open an issue on this repo. Please include:
-- Your username (so he can look up your activity in logs)
-- The full command you ran
-- The error Claude showed you
-
-Don't include your API key in any issue — if you think it's leaked, ask Hamid for a rotation instead.
 
 ---
 
