@@ -4,7 +4,7 @@ Quick performance check for a Google Ads account.
 
 ## Target Account
 
-$ARGUMENTS — provide a customer ID (e.g., 396-860-2949) or account name.
+$ARGUMENTS — provide a customer ID (e.g., 123-456-7890) or account name.
 
 ## Workflow
 

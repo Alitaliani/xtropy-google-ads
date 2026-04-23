@@ -4,7 +4,7 @@ Generate a comprehensive SEM performance audit report as a styled Excel workbook
 
 ## Target Account
 
-$ARGUMENTS — provide a customer ID (e.g., 396-860-2949) or account name, plus optional date range (e.g., "1/19/26-3/1/26") and sheets to include.
+$ARGUMENTS — provide a customer ID (e.g., 123-456-7890) or account name, plus optional date range (e.g., "1/19/26-3/1/26") and sheets to include.
 
 ## Report Generation Workflow
 
@@ -54,7 +54,7 @@ Use specific numbers formatted for readability. Reference the report period expl
 ## Example Usage
 
 ```
-/google-ads:sem-report 396-860-2949 1/19/26-3/1/26
+/google-ads:sem-report 123-456-7890 1/19/26-3/1/26
 /google-ads:sem-report "CARE" YTD
 /google-ads:sem-report 123-456-7890 last 30 days --sheets snapshot,campaign_detail
 ```

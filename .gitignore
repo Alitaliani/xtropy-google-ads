@@ -5,5 +5,3 @@ __pycache__/
 .vscode/
 *.swp
 
-# Skills are kept local/private
-skills/
